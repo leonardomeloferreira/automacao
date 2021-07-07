@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.util;
+package br.com.keeggo.util;
 
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
@@ -7,7 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import br.com.rsinet.hub_bdd.managers.FileReaderManager;
+import br.com.keeggo.managers.FileReaderManager;
 
 public class Wait {
 

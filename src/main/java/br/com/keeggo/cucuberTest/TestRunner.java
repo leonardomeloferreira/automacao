@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.cucuberTest;
+package br.com.keeggo.cucuberTest;
 
 import java.io.File;
 
@@ -8,15 +8,15 @@ import org.junit.runner.RunWith;
 
 import com.cucumber.listener.Reporter;
 
-import br.com.rsinet.hub_bdd.managers.FileReaderManager;
-import br.com.rsinet.hub_bdd.util.DataPrint;
+import br.com.keeggo.managers.FileReaderManager;
+import br.com.keeggo.util.DataPrint;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (features = "Feature", 
-	glue = { "br.com.rsinet.hub_bdd.stepDefinitions" }, 
-	tags = {"@02"},
+	glue = { "br.com.keeggo.stepDefinitions" }, 
+	tags = {"@01,@02"},
 	plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" },
 	monochrome = true
 )

@@ -1,13 +1,13 @@
-package br.com.rsinet.hub_bdd.stepDefinitions;
+package br.com.keeggo.stepDefinitions;
 
 import org.openqa.selenium.WebDriver;
 
 import com.cucumber.listener.Reporter;
 
-import br.com.rsinet.hub_bdd.cucumber.TestContext;
-import br.com.rsinet.hub_bdd.managers.WebDriverManager;
-import br.com.rsinet.hub_bdd.pageFactory.Home_Page;
-import br.com.rsinet.hub_bdd.util.Constant;
+import br.com.keeggo.cucumber.TestContext;
+import br.com.keeggo.managers.WebDriverManager;
+import br.com.keeggo.pageFactory.Home_Page;
+import br.com.keeggo.util.Constant;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

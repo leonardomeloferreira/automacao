@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.util;
+package br.com.keeggo.util;
 
 public class Constant {
 

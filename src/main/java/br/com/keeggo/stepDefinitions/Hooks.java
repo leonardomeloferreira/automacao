@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.stepDefinitions;
+package br.com.keeggo.stepDefinitions;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,10 +10,10 @@ import org.openqa.selenium.WebDriver;
 import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
 
-import br.com.rsinet.hub_bdd.cucuberTest.TestRunner;
-import br.com.rsinet.hub_bdd.cucumber.TestContext;
-import br.com.rsinet.hub_bdd.managers.WebDriverManager;
-import br.com.rsinet.hub_bdd.util.Wait;
+import br.com.keeggo.cucuberTest.TestRunner;
+import br.com.keeggo.cucumber.TestContext;
+import br.com.keeggo.managers.WebDriverManager;
+import br.com.keeggo.util.Wait;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;

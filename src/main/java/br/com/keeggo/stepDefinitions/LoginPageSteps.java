@@ -1,11 +1,11 @@
-package br.com.rsinet.hub_bdd.stepDefinitions;
+package br.com.keeggo.stepDefinitions;
 
 import org.openqa.selenium.WebDriver;
 
 import com.cucumber.listener.Reporter;
 
-import br.com.rsinet.hub_bdd.cucumber.TestContext;
-import br.com.rsinet.hub_bdd.pageFactory.Login_Page;
+import br.com.keeggo.cucumber.TestContext;
+import br.com.keeggo.pageFactory.Login_Page;
 import cucumber.api.java.en.When;
 
 public class LoginPageSteps {

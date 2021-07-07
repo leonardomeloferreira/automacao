@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.managers;
+package br.com.keeggo.managers;
 
 /*
  *  Controla a criacao de objetos

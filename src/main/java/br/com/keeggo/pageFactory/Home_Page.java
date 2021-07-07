@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.pageFactory;
+package br.com.keeggo.pageFactory;
 
 import static org.testng.Assert.assertTrue;
 
@@ -11,8 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-import br.com.rsinet.hub_bdd.managers.FileReaderManager;
-import br.com.rsinet.hub_bdd.util.Wait;
+import br.com.keeggo.managers.FileReaderManager;
+import br.com.keeggo.util.Wait;
 
 
 
@@ -78,7 +78,6 @@ public class Home_Page {
 	}
 
 	public void validaRegisto() throws InterruptedException {
-//		Thread.sleep(10000);
 		Wait.untilJqueryIsDone(driver);
 		assertTrue(btn_Login.isDisplayed());
 		

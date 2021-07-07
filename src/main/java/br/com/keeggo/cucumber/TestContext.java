@@ -1,7 +1,7 @@
-package br.com.rsinet.hub_bdd.cucumber;
+package br.com.keeggo.cucumber;
 
-import br.com.rsinet.hub_bdd.managers.PageObjectManager;
-import br.com.rsinet.hub_bdd.managers.WebDriverManager;
+import br.com.keeggo.managers.PageObjectManager;
+import br.com.keeggo.managers.WebDriverManager;
 
 public class TestContext {
 

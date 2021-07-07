@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.managers;
+package br.com.keeggo.managers;
 
 import java.util.concurrent.TimeUnit;
 
@@ -7,8 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import br.com.rsinet.hub_bdd.enums.DriverType;
-import br.com.rsinet.hub_bdd.enums.EnvironmentType;
+import br.com.keeggo.enums.DriverType;
+import br.com.keeggo.enums.EnvironmentType;
 
 /*
  * Fabrica de driver 

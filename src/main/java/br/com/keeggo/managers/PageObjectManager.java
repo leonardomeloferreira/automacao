@@ -1,10 +1,10 @@
-package br.com.rsinet.hub_bdd.managers;
+package br.com.keeggo.managers;
 
 import org.openqa.selenium.WebDriver;
 
-import br.com.rsinet.hub_bdd.pageFactory.Home_Page;
-import br.com.rsinet.hub_bdd.pageFactory.Login_Page;
-import br.com.rsinet.hub_bdd.pageFactory.Register_Page;
+import br.com.keeggo.pageFactory.Home_Page;
+import br.com.keeggo.pageFactory.Login_Page;
+import br.com.keeggo.pageFactory.Register_Page;
 
 
 /*

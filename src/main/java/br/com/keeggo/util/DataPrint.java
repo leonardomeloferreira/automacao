@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.util;
+package br.com.keeggo.util;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

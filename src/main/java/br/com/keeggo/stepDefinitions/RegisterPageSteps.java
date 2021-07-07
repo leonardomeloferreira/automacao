@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.stepDefinitions;
+package br.com.keeggo.stepDefinitions;
 
 import static org.testng.Assert.assertEquals;
 
@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 
 import com.cucumber.listener.Reporter;
 
-import br.com.rsinet.hub_bdd.cucumber.TestContext;
-import br.com.rsinet.hub_bdd.managers.PageObjectManager;
-import br.com.rsinet.hub_bdd.managers.WebDriverManager;
-import br.com.rsinet.hub_bdd.pageFactory.Home_Page;
-import br.com.rsinet.hub_bdd.pageFactory.Login_Page;
-import br.com.rsinet.hub_bdd.pageFactory.Register_Page;
+import br.com.keeggo.cucumber.TestContext;
+import br.com.keeggo.managers.PageObjectManager;
+import br.com.keeggo.managers.WebDriverManager;
+import br.com.keeggo.pageFactory.Home_Page;
+import br.com.keeggo.pageFactory.Login_Page;
+import br.com.keeggo.pageFactory.Register_Page;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 

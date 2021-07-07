@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.pageFactory;
+package br.com.keeggo.pageFactory;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -43,7 +43,7 @@ public class Login_Page {
 	    btn_CreateAccount.sendKeys(Keys.ENTER);
 	}
 	public void entraUsuario() throws InterruptedException {
-		username("LEO123");
+		username("LEO333");
 	}
 	public void entraSenha() throws InterruptedException {
 		password("Teste@1234");

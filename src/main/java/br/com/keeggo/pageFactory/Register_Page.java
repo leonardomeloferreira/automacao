@@ -1,4 +1,4 @@
-package br.com.rsinet.hub_bdd.pageFactory;
+package br.com.keeggo.pageFactory;
 
 import static org.testng.Assert.assertTrue;
 
@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.cucumber.listener.Reporter;
 
-import br.com.rsinet.hub_bdd.util.Wait;
+import br.com.keeggo.util.Wait;
 
 
 
@@ -129,7 +129,7 @@ WebDriver driver;
     }
 
     public void registro()  {
-        enter_UserName("LEO123");
+        enter_UserName("LEO333");
         enter_Email("leonardoferreiraw@hotmail.com");
         enter_Password("Teste@1234");
         enter_ConfirmPassword("Teste@1234");
